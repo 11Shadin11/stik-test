@@ -1,0 +1,189 @@
+[
+  {
+    "id": 1,
+    "title": "ЖАКЕТ УДЛИНЁННЫЙ",
+    "sizes": [
+      {
+        "value": "XS",
+        "count": "5"
+      }, 
+      {
+        "value": "S",
+        "count": "10"
+      }, 
+      {
+        "value": "M",
+        "count": "sub"
+      } 
+    ],
+    "color": [
+      {
+        "name": "белый",
+        "value": "#ffffff"
+      },
+      {
+        "name": "черный",
+        "value": "#000000"
+      },
+      {
+        "name": "желтый",
+        "value": "#F9F1DC"
+      }
+    ],
+    "price": 8900,
+    "currency": "RUB",
+    "description": "Удлинённый жакет из плотного хлопка. Модель свободного кроя с длинными рукавами и отложным воротником.",
+    "composition": "100% хлопок",
+    "care": "Стирка при 30°C. Не отбеливать. Гладить при средней температуре.",
+    "images": [
+      "/dresses/jacket_elongated_white/jacket_elongated_white_full_front.svg",
+      "/dresses/jacket_elongated_white/jacket_elongated_white_full_back.svg",
+      "/dresses/jacket_elongated_white/jacket_elongated_white_body_legs.svg"
+    ]
+  },
+  
+  {
+    "id": 2,
+    "title": "ПЛАТЬЕ С V-ОБРАЗНЫМ ВЫРЕЗОМ",
+    "sizes": [
+      {
+        "value": "XS",
+        "count": "10"
+      },
+      {
+        "value": "M",
+        "count": "sub"
+      } 
+    ],
+    "color": [
+      {
+        "name": "белый",
+        "value": "#ffffff"
+      },
+      {
+        "name": "черный",
+        "value": "#000000"
+      },
+      {
+        "name": "желтый",
+        "value": "#F9F1DC"
+      }
+    ],
+    "price": 14900,
+    "currency": "RUB",
+    "description": "Удлинённый жакет из плотного хлопка. Модель свободного кроя с длинными рукавами и отложным воротником.",
+    "composition": "100% хлопок",
+    "care": "Стирка при 30°C. Не отбеливать. Гладить при средней температуре.",
+    "images": [
+      "/dresses/dress_vneck_white/dress_vneck_white_full_front.svg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "ЖАКЕТ ДВУБОРТНЫЙ",
+     "sizes": [
+      {
+        "value": "XS",
+        "count": "10"
+      },
+      {
+        "value": "M",
+        "count": "sub"
+      } 
+    ],
+    "color": [
+      {
+        "name": "серо-голубой",
+        "value": "#b6abc4"
+      },
+      {
+        "name": "черный",
+        "value": "#000000"
+      },
+      {
+        "name": "желтый",
+        "value": "#F9F1DC"
+      }
+    ],
+    "price": 8900,
+    "currency": "RUB",
+    "description": "Удлинённый жакет из плотного хлопка. Модель свободного кроя с длинными рукавами и отложным воротником.",
+    "composition": "100% хлопок",
+    "care": "Стирка при 30°C. Не отбеливать. Гладить при средней температуре.",
+    "images": [
+      "/dresses/jacket_double_breasted_grey_blue/jacket_double_breasted_grey_blue_full_front.svg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "ПЛАТЬЕ МАКСИ С ЯРУСАМИ",
+     "sizes": [
+      {
+        "value": "XS",
+        "count": "10"
+      },
+      {
+        "value": "M",
+        "count": "sub"
+      } 
+    ],
+    "color": [ 
+      {
+        "name": "белый",
+        "value": "#ffffff"
+      },
+      {
+        "name": "черный",
+        "value": "#000000"
+      },
+      {
+        "name": "желтый",
+        "value": "#F9F1DC"
+      }
+    ],
+    "price": 10500,
+    "currency": "RUB",
+    "description": "Удлинённый жакет из плотного хлопка. Модель свободного кроя с длинными рукавами и отложным воротником.",
+    "composition": "100% хлопок",
+    "care": "Стирка при 30°C. Не отбеливать. Гладить при средней температуре.",
+    "images": [
+      "/dresses/dress_maxi_tiered_white/dress_maxi_tiered_white_full_front.svg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "КОМБИНЕЗОН СО СТОЙКОЙ",
+     "sizes": [
+      {
+        "value": "XS",
+        "count": "10"
+      },
+      {
+        "value": "M",
+        "count": "sub"
+      } 
+    ],
+    "color": [ 
+      {
+        "name": "черный",
+        "value": "#000000"
+      },
+      {
+        "name": "белый",
+        "value": "#ffffff"
+      },
+      {
+        "name": "желтый",
+        "value": "#F9F1DC"
+      }
+    ],
+    "price": 9500,
+    "currency": "RUB",
+    "description": "Удлинённый жакет из плотного хлопка. Модель свободного кроя с длинными рукавами и отложным воротником.",
+    "composition": "100% хлопок",
+    "care": "Стирка при 30°C. Не отбеливать. Гладить при средней температуре.",
+    "images": [
+      "/dresses/jumpsuit_stand_collar_black/jumpsuit_stand_collar_black_full_front.svg"
+    ]
+  }
+]

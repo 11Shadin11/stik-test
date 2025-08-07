@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 const props = defineProps({
   name: { type: String, required: true },
   size: { type: Number, default: 20 }
@@ -7,7 +7,6 @@ const props = defineProps({
 const iconContent = ref('')
 
 import(`~/assets/icons/${props.name}.svg?raw`).then(module => {
-  console.log(module)
   iconContent.value = module.default
 })
 </script>

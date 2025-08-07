@@ -1,3 +1,5 @@
 <template>
-  <div>index.vue</div>
+  <div class="pt-[86px]">
+    <product-page/>
+  </div>
 </template>

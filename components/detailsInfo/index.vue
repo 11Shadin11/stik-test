@@ -8,6 +8,10 @@ const props = defineProps<{
 const sizes = computed(() => props.product.sizes ?? [])
 const colors = computed(() => props.product.color ?? [])
 
+const formatPrice = (price: number) => {
+  return new Intl.NumberFormat('ru-RU').format(price)
+}
+
 </script>
 <template>
   <div>
@@ -15,7 +19,13 @@ const colors = computed(() => props.product.color ?? [])
       <div>{{ product.title }}</div>
       <ui-icon v-if="isMobile()" name="stroke"/>
     </div>
-    <div class="pt-[8px]">{{ product.price }} {{ product.currency }}</div>
+    <div class="pt-[8px]">
+      <span class="current-price">{{ formatPrice(product.price) }} {{ product.currency }}</span>
+      <span v-if="product.old_price" class="old-price">
+        {{ formatPrice(product.old_price) }} {{ product.currency }}
+      </span>
+    </div>
+
 
     <details-info-sizes :sizes="sizes" class="pt-[31px]"/>
 

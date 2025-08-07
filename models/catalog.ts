@@ -13,6 +13,7 @@ export interface Product {
   sizes: Sizes[]
   color: Color[]
   price: number
+  old_price?: number
   currency: string
   description: string
   composition: string
